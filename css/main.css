@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* NAV BAR STYLE START */
+.navbar-default {
+  background-color: transparent;
+}
+.navbar-brand {
+	height: 50px;
+	padding-right: 15px;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	line-height: 20px;
+}
+.navbar-toggle {
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	border: 0px;
+}
+/* NAV BAR STYLE END */
+
+body {
+	background-image: url(../images/gradient-background-lg.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+ 
+input {
+    background: transparent;
+    border: none;
+    padding-left: 0;
+    white-space:normal !important;
+    text-align: left;
+    max-width:255px;
+}
+
+a {
+	color: #000000;
+}
+a:hover {
+	color: #005bea;
+	text-decoration: none;
+/*
+	transition:0.2s all ease-in-out;
+	-webkit-transition:0.2s all ease-in-out;
+	outline:0;
+*/
+}
+a:focus {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.herobox {
+	padding-top: 250px;
+	padding-bottom: 100px;
+}
+.portfolio-box {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.portfolio-padding {
+	margin-bottom: 50px;
+}
+.footer-area {
+	padding-top: 50px;
+}
+
+
+.text-option1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 64px;
+}
+.text-option2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+}
+.text-option3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+.text-option4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #9B9B9B;
+}
+.text-option5 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+}
+.text-option6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #9B9B9B;
+}
+.text-header {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*Mobile Porstrait View*/
+@media (max-width: 575px){
+	.navbar-default {
+  		background-color: #FFFFFF;
+	}
+	.herobox {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	}
+	.portfolio-box {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.footer-area {
+		padding-top: 0px;
+	}
+	.text-option1 {
+		font-size: 43px;
+	}
+	.text-option2 {
+		font-size: 28px;
+	}
+	.text-option5 {
+	font-size: 10px;
+	}
+	.text-option6 {
+	font-size: 10px;
+	}
+}
+
+
+/*Mobile Landscape View*/
+@media (min-width: 576px) and (max-width: 767px){
+	.navbar-default {
+  		background-color: #FFFFFF;
+	}
+	.herobox {
+	padding-top: 150px;
+	padding-bottom: 50px;
+	}
+	.portfolio-box {
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+	.footer-area {
+		padding-top: 0px;
+	}
+	.text-option1 {
+		font-size: 43px;
+	}
+	.text-option2 {
+		font-size: 28px;
+	}
+}
+
+
+/*Tablet View*/
+@media (min-width: 768px) and (max-width: 991px){
+	.navbar {
+		border: 0px;
+		min-height: 80px;
+	}
+	.text-option1 {
+		font-size: 43px;
+	}
+	.text-option2 {
+		font-size: 28px;
+	}
+}
+
+/*Desktop View*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.navbar {
+	border: 0px;
+	min-height: 80px;
+	}
+}
+
+/*Xtra Desktop View*/
+@media (min-width: 1200px){
+	.navbar {
+	border: 0px;
+	min-height: 80px;
+	}
+}

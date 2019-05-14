@@ -1,0 +1,371 @@
+@charset "UTF-8";
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Navigation Bar*/
+.navbar-default {
+  background-color: transparent;
+}
+.navbar-brand {
+	height: 50px;
+	padding-right: 15px;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	line-height: 20px;
+}
+.navbar-toggle {
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	border: 0px;
+}
+
+
+/*Hyberlink*/
+a {
+	color: darkblue;
+}
+.hyperlink {
+    text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+a:focus {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+/*Parallax Scrolling*/
+
+.parallax { 
+    /* The image used */
+    background-image: url("../images/ilog-featuredimage.jpg");
+
+    /* Set a specific height */
+    height: 85%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-sap { 
+    /* The image used */
+    background-image: url("../images/sap-header.jpg");
+
+    /* Set a specific height */
+    height: 85%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-ha-mobile { 
+    /* The image used */
+    background-image: url("../images/ha-mobile-header.jpg");
+
+    /* Set a specific height */
+    height: 85%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-sked { 
+    /* The image used */
+    background-image: url("../images/sked-header-image.jpg");
+
+    /* Set a specific height */
+    height: 85%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-bclc {
+    /* The image used */
+    background-image: url("../images/bclc-header-image.jpg");
+    /* Set a specific height */
+    height: 85%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+video{ 
+    z-index: -9999;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+#slide {
+    position: relative;
+}
+
+.slide0 {
+    height: 600px;
+}
+
+.slide1 {
+    background-color: white;
+}
+
+
+/*Container*/
+.herobox {
+	padding-top: 100px;
+}
+.image-box{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.background-research {
+    background-color: #F2F2F2;
+}
+.dark-background {
+	background-color: #94A1AF;
+	padding-top: 50px;
+}
+.sap-image {
+    box-shadow: -8px 0 32px 0 rgba(155,155,155,0.50);
+	width: 1024px;
+	height: 665px;
+}
+.background-sap {
+    background-image: url(../images/sap-background.png);
+    width: 100%;
+}
+.background-sked {
+    background-image: url(../images/sked-background.png);
+    width: 100%;
+    margin-top: 5%;
+    opacity: 0.85;
+}
+.shadow {
+    box-shadow: 5px 5px 29px 0 rgba(0,0,0,.1)
+}
+
+
+/*Font*/
+.dark-text{
+	color: #FFFFFF;
+}
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+	text-align: right;
+}
+.title-2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+}
+.subtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: right;
+}
+.subtitle-2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+.main-body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	padding-left: 5%;
+}
+.main-body-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+}
+.footer-text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+}
+.footer-text-grey {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #9B9B9B;
+}
+.text-header {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.highlight-background {
+   background:rgba(255, 240, 197, 1); 
+   color:#000;      
+}
+
+
+
+/*Mobile Porstrait View*/
+@media (max-width: 575px){	
+	.herobox {
+		padding-top: 50px;
+	}
+	.dark-background {
+		padding-top: 0px;
+	}	
+	.title {
+		font-size: 28px;
+		text-align: left;
+	}
+	.title-2 {
+		font-size: 28px;
+		padding-top: 10%;
+	}
+	.subtitle {
+		text-align: left;
+	}
+	.main-body {
+		padding-left: 0%;
+		padding-top: 3%;
+	}
+	.main-body-2 {
+		padding-top: 3%;
+	}
+	.footer-text {
+		font-size: 10px;
+	}
+	.footer-text-grey {
+		font-size: 10px;
+	}
+	.sap-image {
+		width: 100%;
+		height: 100%;
+		margin-top: 8%;
+	}
+}
+
+
+/*Mobile Landscape View*/
+@media (min-width: 576px) and (max-width: 767px){
+	.herobox {
+		padding-top: 50px;
+	}
+	.title {
+		font-size: 28px;
+		text-align: left;
+	}
+	.title-2 {
+		font-size: 28px;
+	}
+	.subtitle {
+		text-align: left;
+	}
+	.main-body {
+		padding-left: 0%;
+		padding-top: 3%;
+	}
+	.main-body-2 {
+		padding-top: 3%;
+	}
+	.sap-image {
+		width: 100%;
+		height: 100%;
+		margin-top: 8%;
+	}
+}
+
+
+/*Tablet View*/
+@media (min-width: 768px) and (max-width: 991px){
+	.herobox {
+		padding-top: 80px;
+	}
+	.title {
+		font-size: 28px;
+		text-align: left;
+	}
+	.title {
+		font-size: 28px;
+	}
+	.subtitle {
+		text-align: left;
+	}
+	.main-body {
+		padding-left: 0%;
+		padding-top: 3%;
+	}
+	.main-body-2 {
+		padding-top: 3%;
+	}
+	.sap-image {
+		width: 100%;
+		height: 100%;
+		margin-top: 8%;
+	}
+}
+
+/*Desktop View*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.navbar {
+		border: 0px;  
+		min-height: 80px;
+	}
+}
+
+/*Xtra Desktop View*/
+@media (min-width: 1200px){
+	.navbar {
+		border: 0px;  
+		min-height: 80px;
+	}
+    .top-padding {
+        margin-top: 100px;
+    }
+    .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+}
+
+}
