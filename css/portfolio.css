@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "GT Super Display";
+    src: url("fonts/GT-Super-Display-Regular.eot");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter UI";
+    src: url("fonts/Inter-UI-Regular.ttf")  format("truetype");
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -9,15 +20,13 @@ body, html {
 
 /*Navigation Bar*/
 .navbar-default {
-  background-color: transparent;
+  background-color: hsla(0, 0%, 100%, 0.95);
+  padding-right: 30px;
 }
 .navbar-brand {
-	height: 50px;
-	padding-right: 15px;
-	padding-left: 20px;
-	padding-top: 25px;
-	padding-bottom: 15px;
-	line-height: 20px;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .navbar-toggle {
 	padding-top: 20px;
@@ -187,55 +196,51 @@ video{
 	color: #FFFFFF;
 }
 .title {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	font-size: 35px;
+	font-family: 'GT Super Display', sans-serif;
+    font-weight: 400;
+	font-size: 40px;
 	text-align: right;
 }
 .title-2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	font-size: 35px;
+	font-family: 'GT Super Display', sans-serif;
+	font-size: 40px;
+    font-weight: 400;
 }
 .subtitle {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 20px;
+	font-family: 'Inter UI', sans-serif;
+	font-size: 24px;
 	text-align: right;
 }
 .subtitle-2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 20px;
+	font-family: 'Inter UI', sans-serif;
+	font-size: 24px;
+    color: #666666;
 }
 .main-body {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 16px;
+	font-family: 'Inter UI', sans-serif;
+	font-size: 18px;
 	padding-left: 5%;
 }
 .main-body-2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 18px;
     line-height: 200%;
 }
 .footer-text {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	font-family: 'Inter UI', sans-serif;
 	font-size: 16px;
 	color: #000000;
 }
 .footer-text-grey {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	font-family: 'Inter UI', sans-serif;
 	font-size: 16px;
 	color: #9B9B9B;
 }
 .text-header {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	font-size: 20px;
+	font-family: 'Inter UI', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+    line-height: 21px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
