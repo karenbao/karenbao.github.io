@@ -1344,6 +1344,7 @@
     line-height: 30px;
   }
   .grid {
+    justify-items: center;
     grid-column-gap: 10px;
   }
   .bold-text {
