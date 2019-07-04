@@ -17,6 +17,13 @@ body, html {
     padding: 0;
 }
 
+a {
+	color: #666666 !important;
+}
+
+a:hover {
+	color: #8468bf !important;
+}
 
 /*Navigation Bar*/
 .navbar-default {
