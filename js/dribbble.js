@@ -27,7 +27,7 @@ $.ajax({
           // NOTE: anything after this will not show
         }
         else {
-          $('#rightShot').append('<div class="rightshot col-md-6" target="_blank" href="'+val.html_url +'" title="' + val.title + '"><img src="'+ val.images.hidpi +'"/></div>')
+          $('#rightShot').append('<div class="rightshot col-md-6" target="_blank" href="'+val.html_url +'" title="' + val.title + '"><video autoplay loop name="media" width="100%" height="100%"><source src="'+ val.video.url +'" type="video/mp4"></video></div>')
         }
       })
     }
