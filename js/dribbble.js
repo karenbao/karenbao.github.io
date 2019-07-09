@@ -22,7 +22,7 @@ $.ajax({
       const sortedData = data.sort(compare);
       $.each(sortedData.reverse(), function(i, val) {
         if(i === 0 ) {
-          $('#leftShot').append('<div class="leftshot col-md-12" target="_blank" href="'+val.html_url +'" title="' + val.title + '"><video autoplay loop name="media"><source src="'+ val.video.small_preview_url +'" type="video/mp4"></video></div>')
+          $('#leftShot').append('<div class="leftshot col-md-12" target="_blank" href="'+val.html_url +'" title="' + val.title + '"><video autoplay loop name="media"><source src="'+ val.video.url +'" type="video/mp4"></video></div>')
         } else if(i >= 5) {
           // NOTE: anything after this will not show
         }
