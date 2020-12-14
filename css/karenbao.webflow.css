@@ -172,6 +172,9 @@ img {
   z-index: 1;
   margin-bottom: 160px;
 }
+.section-case-study.design-section {
+  margin-bottom: 80px;
+}
 
 .case-study-image {
   position: absolute;
@@ -182,10 +185,10 @@ img {
   z-index: 1;
   width: 60vw;
   height: 80vh;
-  max-height: 540px;
+  max-height: 500px;
   max-width: 864px;
   padding-bottom: 0px;
-  background-image: url('../images/ha-mobile-header.jpg');
+  background-image: url('../images/concierge_starter_header.png');
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: scroll;
