@@ -188,7 +188,7 @@ img {
   max-height: 500px;
   max-width: 864px;
   padding-bottom: 0px;
-  background-image: url('../images/concierge_starter_header.png');
+  background-image: url('../images/mydoh_task_creation_header.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: scroll;
@@ -197,6 +197,14 @@ img {
 .case-study-image.harbour-air-web {
   background-image: none;
 }
+
+.case-study-image.mydoh-child-home {
+  background-image: url('../images/mydoh_child_home_header.jpg');
+  background-position: 50% 50%;
+  max-height: 500px;
+  background-size: 864px;
+}
+
 
 .case-study-image.hootsuite {
   background-image: url('../images/hootsuite-cover.jpg');
