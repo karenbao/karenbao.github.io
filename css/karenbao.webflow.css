@@ -205,6 +205,9 @@ img {
   background-size: 864px;
 }
 
+.case-study-image.mydoh-design-operations {
+  background-image: url('../images/mydoh_design_operations.jpg');
+}
 
 .case-study-image.hootsuite {
   background-image: url('../images/hootsuite-cover.jpg');
